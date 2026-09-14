@@ -1,0 +1,79 @@
+{
+    "ORP (mV)": {
+        "model_file": "saved_models/ORP_mV_model.pkl",
+        "data_file": "data/orp_data.xlsx",
+        "features": [
+            "pH",
+            "Temp (\u00b0C)",
+            "TDS (ppm)"
+        ],
+        "r2": 0.5175282880678745,
+        "accuracy_percent": 51.752828806787456,
+        "mae": 17.342986249853517,
+        "rmse": 25.54654132941306
+    },
+    "NH4+ (ppm)": {
+        "model_file": "saved_models/NH4plus_ppm_model.pkl",
+        "data_file": "data/nh4_data.xlsx",
+        "features": [
+            "pH",
+            "ORP (mV)",
+            "EC (\u00b5S/cm)",
+            "TDS (ppm)",
+            "Turbidity (FNU)"
+        ],
+        "r2": 0.9899219313571819,
+        "accuracy_percent": 98.99219313571818,
+        "mae": 0.04857778665346976,
+        "rmse": 0.06016336746774282
+    },
+    "NO3- (ppm)": {
+        "model_file": "saved_models/NO3minus_ppm_model.pkl",
+        "data_file": "data/no3_data.xlsx",
+        "features": [
+            "pH",
+            "TDS (ppm)"
+        ],
+        "r2": 0.8252109545116062,
+        "accuracy_percent": 82.52109545116062,
+        "mae": 0.4969975680916315,
+        "rmse": 1.0622288735226737
+    },
+    "Chlo. a (ppb)": {
+        "model_file": "saved_models/Chlo_a_ppb_model.pkl",
+        "data_file": "data/chlorophyll_data.xlsx",
+        "features": [
+            "EC (\u00b5S/cm)",
+            "Sal (psu)"
+        ],
+        "r2": 0.8333593891855822,
+        "accuracy_percent": 83.33593891855821,
+        "mae": 4.85561660708834,
+        "rmse": 7.297644322026186
+    },
+    "Phycocyanin (ppb)": {
+        "model_file": "saved_models/Phycocyanin_ppb_model.pkl",
+        "data_file": "data/phycocyanin_data.xlsx",
+        "features": [
+            "Temp (\u00b0C)",
+            "TDS (ppm)"
+        ],
+        "r2": 0.6487358717289202,
+        "accuracy_percent": 64.87358717289202,
+        "mae": 0.19139254308537568,
+        "rmse": 0.243406228745253
+    },
+    "Sal (psu)": {
+        "model_file": "saved_models/Sal_psu_model.pkl",
+        "data_file": "data/salinity_data.xlsx",
+        "features": [
+            "EC (\u00b5S/cm)",
+            "TDS (ppm)",
+            "Turbidity (FNU)"
+        ],
+        "r2": 0.9350966837165001,
+        "accuracy_percent": 93.50966837165001,
+        "mae": 0.005479545452727443,
+        "rmse": 0.02736992746206834
+    }
+}
