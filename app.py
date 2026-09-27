@@ -727,6 +727,9 @@ if prediction_method == "Excel File Prediction":
                                 key="download_excel_results"
                             )
 
+            except Exception as e:
+                st.error(f"Could not read or process the Excel file: {e}")
+
     else:
 
         st.info(
