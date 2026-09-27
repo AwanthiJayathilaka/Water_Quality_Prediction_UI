@@ -592,7 +592,7 @@ if prediction_method == "Excel File Prediction":
                 st.subheader("Step 4: Predict")
 
                 if st.button(
-                    "🔍 Predict Excel Data",
+                    "🔍 Predict Data",
                     key="predict_excel_button"
                 ):
 
