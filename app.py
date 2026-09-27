@@ -174,7 +174,7 @@ if os.path.exists(LOGO_PATH):
             <img class="hydrolab-logo" src="data:image/png;base64,{logo_base64}">
             <div class="hydrolab-subtitle">
                 A machine learning-based water quality prediction interface for estimating
-                selected aquarium water quality parameters using trained prediction models.
+                selected water quality parameters using trained prediction models.
             </div>
         </div>
         """,
@@ -544,5 +544,5 @@ st.write("**Sal (psu):** predicted using EC, TDS, and Turbidity.")
 st.divider()
 
 st.write(
-    "Developed as a machine learning-based user interface for aquarium water quality prediction."
+    "Developed as a machine learning-based user interface for water quality parameters prediction."
 )
